@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    width: 1200px;
+ 
+height:550px;
+    background: url(img/userFon.png);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{width: 500px;
+   height:550px;
+   border-radius: 20px;
+    border: 1px solid black;
+    margin: 30px;
+    
+}
+h2{
+    font-size: 35px;
+    color: rgb(45, 45, 45);
+    text-shadow: 3px 3px 5px rgba(155, 155, 155, 0.556);
+}
+#user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: space-around;
+}
+input{
+    width: 400px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+#btn-submit{
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+    /* background: #c7e8efa3; */
+    background: white;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 10px ;
+    transition: 0.3s;
+  
+  
+}
+#btn-submit:hover{
+transition: 0.3s;
+    box-shadow: 5px 5px 10px grey;
+    font-size:18px ;
+ 
+}
+.cross{
+    width:50px;
+    height: 50px;
+
+}

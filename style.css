@@ -1,0 +1,370 @@
+body{
+     margin: 0;
+     /* background: url(img/mbfon.png); */
+     background: rgba(234, 234, 234, 0.576);
+     height: max-content;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+     
+
+}
+
+.box{
+    width: 1000px;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background: rgb(255, 255, 255);
+}
+menu{
+   
+    padding: 0;
+}
+#navigation{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background: white;
+    margin: 0 auto;
+    
+
+}
+.rightNav{
+    width: 300px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftNav{
+    /* border: 1px solid black; */
+    width: 600px;   
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+a{
+    text-decoration: none;
+    
+}
+.exit{
+    width: 60px;
+    height: 50px;
+    opacity: 80%;
+}
+ 
+.telegaImg{
+height: 30px;
+width: 35px;
+}
+.likeImg{
+    height: 30px;
+    width: 35px;
+    margin: 0 auto;
+}
+.userImg{
+    height: 30px;
+    width: 30px;
+    
+}
+.telega{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.user{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 460px;
+    width: 1000px;
+}
+.title
+{
+    width: 600px;
+    
+    text-align: center;
+}
+ 
+.logoImg{
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+}
+.titleText {
+    font-size: 70px;
+
+    
+}
+.description{
+    width: 342px;
+    height: min-content;
+    
+   
+}
+
+/* search */
+.search{
+  
+    border: 1px solid black;
+    display: flex;
+    padding: 0 20px;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+ .searchForm{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background:white;
+ }
+ .searchBtn{
+    border: none;
+    background:white;
+ }
+ .searchBtnImg{
+    width: 30px;
+    height: 30px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ }
+ /* main */
+ #categories{
+    height:700px ;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .block1,
+ .block2,
+ .block3,
+ .block4{
+    width: 420px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 15px;
+    background:#DCBDBB;
+    transition: 0.4s;
+ }
+ .block1:hover,
+ .block2:hover,
+ .block3:hover,
+ .block4:hover{
+   transform: scale(1.2);
+    transition: 0.4s;
+    cursor: pointer;
+ }
+.leftBlocks{
+    height: 700px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.rightBlocks{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    .dragonsImg{
+        width: 200px;
+        height: 180px;
+        border-radius: 15px;
+       
+    }
+    .rasteniaImg{
+        width: 210px;
+        height: 190px;
+        border-radius: 15px;
+    }
+    .kormImg{
+        width: 210px;
+        height: 180px;
+        border-radius: 15px;
+    }
+    .homeImg{
+     
+        width: 170px;
+        height: 180px;
+        border-radius: 15px;
+         }
+    
+.categoriestext{
+    color: rgb(37, 37, 37);
+    font-weight:bold;
+    font-size: 40px;
+    margin: 30px 0 0 30px ;
+}
+.op{
+    color: rgb(64, 64, 64);
+    margin: 15px 0 0 30px;
+}
+
+.blokTekst{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.blokImg{
+    height: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+/* comments */
+.comments{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+    border: 1px solid rgba(44, 44, 44, 0.701);
+    border-radius: 15px;
+    width: 280px;
+    height: 400px;
+    background:#ffffff25;
+    
+}
+.profil{
+    display: flex;
+    /* border: 1px solid red; */
+   height: 80px;
+}
+.avatarka{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: 0 5px;
+    margin: 10px;
+}
+.ava{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.comm{
+    margin: 20px;
+}
+.commName{
+    font-size: 17px;
+}
+ 
+.commBtn{
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #9A757C;
+    cursor: pointer;
+     margin-left: 140px;
+     margin-bottom: 20px;
+     transition: 0.4s;
+}
+.commBtn:hover{
+    box-shadow: 5px 5px 10px grey;
+    transition: 0.4s;
+}
+/* footer */
+footer{
+    width: 1400px;
+    height: 750px;
+    background: url(img/giffon.gif);
+    opacity: 70%;
+}
+h2{
+    color:rgb(0, 0, 0);
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 8px 8px 10px rgb(255, 255, 255);
+    opacity: 100%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.foot{
+   
+    width: 550px;
+    height: 300px;
+}
+.h3{
+    margin: 0 auto;
+    font-size: 90px;
+    
+}
+.p{
+    font-size: 50px;
+}
+.topFooter{
+    display: flex;
+    gap: 80px;
+}
+.bottomFooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footB{
+    width: 300px;
+    height: 200px;
+  
+    margin: 20px;
+    text-align: center;
+  
+    
+}

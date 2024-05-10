@@ -1,0 +1,143 @@
+body{
+    /* margin: 0 auto; */
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: rgba(188, 164, 164, 0.285);
+   
+   
+ 
+
+}
+menu{
+    padding: 0;
+}
+#navigation{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background: white;
+    margin: 0;
+
+    
+
+}
+.rightNav{
+    width: 300px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftNav{
+    /* border: 1px solid black; */
+    width: 600px;   
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+a{
+    text-decoration: none;
+    
+}
+.exit{
+    width: 60px;
+    height: 50px;
+    opacity: 80%;
+}
+ 
+.telegaImg{
+height: 30px;
+width: 35px;
+}
+.likeImg{
+    height: 30px;
+    width: 35px;
+    margin: 0 auto;
+}
+.userImg{
+    height: 30px;
+    width: 30px;
+    
+}
+.telega{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.user{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+ /* table */
+ table{
+     padding: 0;
+    width: 1000px;
+height: max-content;
+   
+    border-collapse: collapse;
+ }
+ td{
+    padding: 0;
+    border: 1px solid rgb(78, 57, 57);
+    border-radius: 20px;
+ }
+ .st1{
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    padding: 0;
+ }
+ .st2{
+   
+height: 250px;
+ }
+ 
+ .rastenie{
+    width: 250px;
+    height: 250px;
+    opacity: 95%;
+ }
+ .opisanie{
+  
+ }
+ p{
+    font-size: 20px;
+    margin: 10px;
+ }
+ h3{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #794850;
+    text-shadow: 5px 5px 10px rgba(75, 52, 88, 0.474);
+ }

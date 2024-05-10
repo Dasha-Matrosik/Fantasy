@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <a href="index.html">   <img class="cross" src="icon/cross.png" alt=""></a>
+    <div class="content">
+     
+    <div class="box">
+    
+        <form action="" id="user">
+            
+                <h2>Создать аккаунт</h2>
+                <label for="name">Имя:
+            <input type="text" id='name' name="name" minlength="2" pattern="[А-Яа-яЁё]+"
+             placeholder="Введите ваше имя" required>
+            <small class="hint">Только русский и не менее 2 символов </small>
+                </label>
+                <label for="email">Email:
+             <input type="email" id='email' name="email"
+             placeholder="Введи ваш email" required>
+             <small class="hint">Пример: user@gmail.com </small>
+                </label>
+                <label for="password">Пароль:
+            <input type="password" id='password' name="password" minlength="5" pattern="[0-9]+"
+            placeholder="Введите ваш пароль" required>
+            <small class="hint">Только цифры и не менее 5 символов</small>
+                </label>
+                <label for="confirmPassword">Повторите пароль:
+            <input type="password" id='confirmPassword' name="confirmPassword" minlength="5" pattern="[0-9]+"
+            placeholder="Повторите ваш пароль" required>
+            <small class="hint">Только цифры и не менее 5 символов</small>
+                </label>
+                 <button id="btn-submit" type="submit" >Создать</button>
+             
+            </div>
+          
+        </form>
+        
+    </div>
+</div>
+
+</body>
+</html>

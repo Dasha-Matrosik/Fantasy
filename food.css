@@ -1,0 +1,157 @@
+body{
+    /* margin: 0 auto; */
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: rgba(188, 164, 164, 0.285);
+   
+   
+ 
+
+}
+menu{
+    padding: 0;
+}
+#navigation{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    background: white;
+    margin: 0;
+
+    
+
+}
+.rightNav{
+    width: 300px;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftNav{
+    /* border: 1px solid black; */
+    width: 600px;   
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+a{
+    text-decoration: none;
+    
+}
+.exit{
+    width: 60px;
+    height: 50px;
+    opacity: 80%;
+}
+ 
+.telegaImg{
+height: 30px;
+width: 35px;
+}
+.likeImg{
+    height: 30px;
+    width: 35px;
+    margin: 0 auto;
+}
+.userImg{
+    height: 30px;
+    width: 30px;
+    
+}
+.telega{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.user{
+    border: 1px solid black;
+    width: 42px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content:space-between;  
+    height: 1500px;
+    margin-top: 20px;
+}
+/* kartochki */
+.kartochka{
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background:rgba(255, 255, 255, 0.313) ;
+}
+.tr{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #9A757C;
+    cursor: pointer;
+     transition: 0.4s;
+     float: right;
+     margin-right: 20px;
+}
+button:hover{
+    box-shadow: 5px 5px 10px grey;
+    transition: 0.4s;
+}
+.text{
+    margin: 0 10px;
+}
+
+.kristal{
+    width: 40px;
+    height: 40px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+img{
+    width: 300px;
+    height: 250px;
+}
